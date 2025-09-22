@@ -35,3 +35,9 @@ An automotive company (or automotive retail distributor) wants to understand the
   ```shell
   docker compose up -d
   ```
+
+## Output
+<img width="1440" height="449" alt="Screenshot 2025-09-22 at 17 44 17" src="https://github.com/user-attachments/assets/1b4e4579-224c-4bd4-b5d8-8f4cc86dbaf1" />
+<img width="1440" height="393" alt="Screenshot 2025-09-22 at 17 44 30" src="https://github.com/user-attachments/assets/03a09c40-7f21-4bd8-936b-4a6889f92340" />
+<img width="1440" height="393" alt="Screenshot 2025-09-22 at 17 44 38" src="https://github.com/user-attachments/assets/b18ab900-37ee-4ef0-a0b5-5409e0725d79" />
+
