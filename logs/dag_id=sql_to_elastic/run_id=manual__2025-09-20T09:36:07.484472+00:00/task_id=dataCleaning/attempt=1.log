@@ -1,0 +1,46 @@
+[2025-09-20T09:36:11.390+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: sql_to_elastic.dataCleaning manual__2025-09-20T09:36:07.484472+00:00 [queued]>
+[2025-09-20T09:36:11.397+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: sql_to_elastic.dataCleaning manual__2025-09-20T09:36:07.484472+00:00 [queued]>
+[2025-09-20T09:36:11.397+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-20T09:36:11.397+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 1
+[2025-09-20T09:36:11.397+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-20T09:36:11.407+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): dataCleaning> on 2025-09-20 09:36:07.484472+00:00
+[2025-09-20T09:36:11.415+0000] {standard_task_runner.py:52} INFO - Started process 2675 to run task
+[2025-09-20T09:36:11.421+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'sql_to_elastic', 'dataCleaning', 'manual__2025-09-20T09:36:07.484472+00:00', '--job-id', '176', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmp51vxfmz2', '--error-file', '/tmp/tmpq7vmno2x']
+[2025-09-20T09:36:11.422+0000] {standard_task_runner.py:80} INFO - Job 176: Subtask dataCleaning
+[2025-09-20T09:36:11.600+0000] {task_command.py:371} INFO - Running <TaskInstance: sql_to_elastic.dataCleaning manual__2025-09-20T09:36:07.484472+00:00 [running]> on host 564f5208acb9
+[2025-09-20T09:36:11.726+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=sql_to_elastic
+AIRFLOW_CTX_TASK_ID=dataCleaning
+AIRFLOW_CTX_EXECUTION_DATE=2025-09-20T09:36:07.484472+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-09-20T09:36:07.484472+00:00
+[2025-09-20T09:36:11.918+0000] {taskinstance.py:1902} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag.py", line 83, in dataCleaning
+    dfCopy = dfCopy.dropna(subset=f"{column}")
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/frame.py", line 5950, in dropna
+    indices = ax.get_indexer_for(subset)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 5275, in get_indexer_for
+    return self.get_indexer(target, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 3437, in get_indexer
+    target = self._maybe_cast_listlike_indexer(target)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 5708, in _maybe_cast_listlike_indexer
+    return ensure_index(target)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 6336, in ensure_index
+    return Index(index_like, copy=copy)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 474, in __new__
+    raise cls._scalar_data_error(data)
+TypeError: Index(...) must be called with a collection of some kind, 'order_date' was passed
+[2025-09-20T09:36:12.029+0000] {taskinstance.py:1412} INFO - Marking task as FAILED. dag_id=sql_to_elastic, task_id=dataCleaning, execution_date=20250920T093607, start_date=20250920T093611, end_date=20250920T093612
+[2025-09-20T09:36:12.052+0000] {standard_task_runner.py:97} ERROR - Failed to execute job 176 for task dataCleaning (Index(...) must be called with a collection of some kind, 'order_date' was passed; 2675)
+[2025-09-20T09:36:12.075+0000] {local_task_job.py:156} INFO - Task exited with return code 1
+[2025-09-20T09:36:12.182+0000] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

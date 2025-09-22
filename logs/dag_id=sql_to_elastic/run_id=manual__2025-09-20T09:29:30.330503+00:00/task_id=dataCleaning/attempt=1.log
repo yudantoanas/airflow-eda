@@ -1,0 +1,47 @@
+[2025-09-20T09:29:34.680+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: sql_to_elastic.dataCleaning manual__2025-09-20T09:29:30.330503+00:00 [queued]>
+[2025-09-20T09:29:34.688+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: sql_to_elastic.dataCleaning manual__2025-09-20T09:29:30.330503+00:00 [queued]>
+[2025-09-20T09:29:34.688+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-20T09:29:34.688+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 1
+[2025-09-20T09:29:34.688+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-20T09:29:34.703+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): dataCleaning> on 2025-09-20 09:29:30.330503+00:00
+[2025-09-20T09:29:34.712+0000] {standard_task_runner.py:52} INFO - Started process 2456 to run task
+[2025-09-20T09:29:34.716+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'sql_to_elastic', 'dataCleaning', 'manual__2025-09-20T09:29:30.330503+00:00', '--job-id', '163', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpmgictcpw', '--error-file', '/tmp/tmpg8iz60z8']
+[2025-09-20T09:29:34.717+0000] {standard_task_runner.py:80} INFO - Job 163: Subtask dataCleaning
+[2025-09-20T09:29:34.783+0000] {task_command.py:371} INFO - Running <TaskInstance: sql_to_elastic.dataCleaning manual__2025-09-20T09:29:30.330503+00:00 [running]> on host 564f5208acb9
+[2025-09-20T09:29:34.840+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=sql_to_elastic
+AIRFLOW_CTX_TASK_ID=dataCleaning
+AIRFLOW_CTX_EXECUTION_DATE=2025-09-20T09:29:30.330503+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-09-20T09:29:30.330503+00:00
+[2025-09-20T09:29:34.908+0000] {logging_mixin.py:115} INFO -       0   1      2   3     4   ...     15      16        17      18      19
+0  10107  30  95.70   2  2871  ...  10022     USA        Yu    Kwai   Small
+1  10121  34  81.35   5  2765  ...  51100  France   Henriot    Paul   Small
+2  10134  41  94.74   2  3884  ...  75508  France  Da Cunha  Daniel  Medium
+3  10145  45  83.26   6  3746  ...  90003     USA     Young   Julie  Medium
+4  10168  36  96.66   1  3479  ...  94217     USA    Hirano    Juri  Medium
+
+[5 rows x 20 columns]
+[2025-09-20T09:29:34.909+0000] {logging_mixin.py:115} INFO - RangeIndex(start=0, stop=20, step=1)
+[2025-09-20T09:29:34.909+0000] {taskinstance.py:1902} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag.py", line 35, in dataCleaning
+    df.columns = df.columns.str.lower()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/accessor.py", line 181, in __get__
+    accessor_obj = self._accessor(obj)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/strings/accessor.py", line 168, in __init__
+    self._inferred_dtype = self._validate(data)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/strings/accessor.py", line 225, in _validate
+    raise AttributeError("Can only use .str accessor with string values!")
+AttributeError: Can only use .str accessor with string values!
+[2025-09-20T09:29:34.921+0000] {taskinstance.py:1412} INFO - Marking task as FAILED. dag_id=sql_to_elastic, task_id=dataCleaning, execution_date=20250920T092930, start_date=20250920T092934, end_date=20250920T092934
+[2025-09-20T09:29:34.933+0000] {standard_task_runner.py:97} ERROR - Failed to execute job 163 for task dataCleaning (Can only use .str accessor with string values!; 2456)
+[2025-09-20T09:29:34.977+0000] {local_task_job.py:156} INFO - Task exited with return code 1
+[2025-09-20T09:29:35.097+0000] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

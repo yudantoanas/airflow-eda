@@ -1,0 +1,24 @@
+[2025-09-20T09:22:02.118+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: sql_to_elastic.fetchDB manual__2025-09-20T09:22:00.696665+00:00 [queued]>
+[2025-09-20T09:22:02.145+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: sql_to_elastic.fetchDB manual__2025-09-20T09:22:00.696665+00:00 [queued]>
+[2025-09-20T09:22:02.146+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-20T09:22:02.150+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 1
+[2025-09-20T09:22:02.152+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-20T09:22:02.198+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): fetchDB> on 2025-09-20 09:22:00.696665+00:00
+[2025-09-20T09:22:02.229+0000] {standard_task_runner.py:52} INFO - Started process 2145 to run task
+[2025-09-20T09:22:02.236+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'sql_to_elastic', 'fetchDB', 'manual__2025-09-20T09:22:00.696665+00:00', '--job-id', '152', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpytgg9slv', '--error-file', '/tmp/tmpluekbx04']
+[2025-09-20T09:22:02.239+0000] {standard_task_runner.py:80} INFO - Job 152: Subtask fetchDB
+[2025-09-20T09:22:02.390+0000] {task_command.py:371} INFO - Running <TaskInstance: sql_to_elastic.fetchDB manual__2025-09-20T09:22:00.696665+00:00 [running]> on host 564f5208acb9
+[2025-09-20T09:22:02.478+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=sql_to_elastic
+AIRFLOW_CTX_TASK_ID=fetchDB
+AIRFLOW_CTX_EXECUTION_DATE=2025-09-20T09:22:00.696665+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-09-20T09:22:00.696665+00:00
+[2025-09-20T09:22:02.497+0000] {base.py:68} INFO - Using connection ID 'postgres_default' for task execution.
+[2025-09-20T09:22:02.606+0000] {python.py:173} INFO - Done. Returned value was: None
+[2025-09-20T09:22:02.618+0000] {taskinstance.py:1412} INFO - Marking task as SUCCESS. dag_id=sql_to_elastic, task_id=fetchDB, execution_date=20250920T092200, start_date=20250920T092202, end_date=20250920T092202
+[2025-09-20T09:22:02.670+0000] {local_task_job.py:156} INFO - Task exited with return code 0
+[2025-09-20T09:22:02.704+0000] {local_task_job.py:279} INFO - 1 downstream tasks scheduled from follow-on schedule check

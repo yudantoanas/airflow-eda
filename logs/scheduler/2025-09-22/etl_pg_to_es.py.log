@@ -1,0 +1,29 @@
+[2025-09-22T01:59:00.474+0000] {processor.py:153} INFO - Started process (PID=187) to work on /opt/airflow/dags/etl_pg_to_es.py
+[2025-09-22T01:59:00.475+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/etl_pg_to_es.py for tasks to queue
+[2025-09-22T01:59:00.477+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:59:00.476+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pg_to_es.py
+[2025-09-22T01:59:02.028+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/etl_pg_to_es.py
+[2025-09-22T01:59:02.333+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:59:02.329+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:59:02.392+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:59:02.392+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:59:02.016677+00:00, run_after=2025-09-23T01:59:02.016677+00:00
+[2025-09-22T01:59:02.491+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_pg_to_es.py took 2.024 seconds
+[2025-09-22T01:59:33.215+0000] {processor.py:153} INFO - Started process (PID=203) to work on /opt/airflow/dags/etl_pg_to_es.py
+[2025-09-22T01:59:33.219+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/etl_pg_to_es.py for tasks to queue
+[2025-09-22T01:59:33.224+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:59:33.223+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pg_to_es.py
+[2025-09-22T01:59:39.367+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/etl_pg_to_es.py
+[2025-09-22T01:59:40.199+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:59:40.184+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:59:40.644+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:59:40.640+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:59:39.323319+00:00, run_after=2025-09-23T01:59:39.323319+00:00
+[2025-09-22T01:59:40.832+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_pg_to_es.py took 7.681 seconds
+[2025-09-22T02:00:12.841+0000] {processor.py:153} INFO - Started process (PID=209) to work on /opt/airflow/dags/etl_pg_to_es.py
+[2025-09-22T02:00:12.868+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/etl_pg_to_es.py for tasks to queue
+[2025-09-22T02:00:12.895+0000] {logging_mixin.py:115} INFO - [2025-09-22T02:00:12.893+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pg_to_es.py
+[2025-09-22T02:00:26.987+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/etl_pg_to_es.py
+[2025-09-22T02:00:27.667+0000] {logging_mixin.py:115} INFO - [2025-09-22T02:00:27.657+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T02:00:27.785+0000] {logging_mixin.py:115} INFO - [2025-09-22T02:00:27.782+0000] {dag.py:2448} INFO - Creating ORM DAG for sql_to_elastic
+[2025-09-22T02:00:27.882+0000] {logging_mixin.py:115} INFO - [2025-09-22T02:00:27.882+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T02:00:26.972294+00:00, run_after=2025-09-23T02:00:26.972294+00:00
+[2025-09-22T02:00:27.951+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_pg_to_es.py took 15.715 seconds
+[2025-09-22T02:00:58.826+0000] {processor.py:153} INFO - Started process (PID=215) to work on /opt/airflow/dags/etl_pg_to_es.py
+[2025-09-22T02:00:58.828+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/etl_pg_to_es.py for tasks to queue
+[2025-09-22T02:00:58.831+0000] {logging_mixin.py:115} INFO - [2025-09-22T02:00:58.831+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pg_to_es.py
+[2025-09-22T02:01:05.991+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/etl_pg_to_es.py
+[2025-09-22T02:01:06.272+0000] {logging_mixin.py:115} INFO - [2025-09-22T02:01:06.269+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T02:01:06.338+0000] {logging_mixin.py:115} INFO - [2025-09-22T02:01:06.338+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T02:01:05.967858+00:00, run_after=2025-09-23T02:01:05.967858+00:00
+[2025-09-22T02:01:06.381+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_pg_to_es.py took 7.601 seconds

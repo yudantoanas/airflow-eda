@@ -1,0 +1,46 @@
+[2025-09-20T09:23:06.417+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: sql_to_elastic.dataCleaning manual__2025-09-20T09:23:03.034691+00:00 [queued]>
+[2025-09-20T09:23:06.427+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: sql_to_elastic.dataCleaning manual__2025-09-20T09:23:03.034691+00:00 [queued]>
+[2025-09-20T09:23:06.427+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-20T09:23:06.428+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 1
+[2025-09-20T09:23:06.428+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-20T09:23:06.438+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): dataCleaning> on 2025-09-20 09:23:03.034691+00:00
+[2025-09-20T09:23:06.444+0000] {standard_task_runner.py:52} INFO - Started process 2172 to run task
+[2025-09-20T09:23:06.447+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'sql_to_elastic', 'dataCleaning', 'manual__2025-09-20T09:23:03.034691+00:00', '--job-id', '155', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmppu_ncnpl', '--error-file', '/tmp/tmpgb0rc_39']
+[2025-09-20T09:23:06.449+0000] {standard_task_runner.py:80} INFO - Job 155: Subtask dataCleaning
+[2025-09-20T09:23:06.514+0000] {task_command.py:371} INFO - Running <TaskInstance: sql_to_elastic.dataCleaning manual__2025-09-20T09:23:03.034691+00:00 [running]> on host 564f5208acb9
+[2025-09-20T09:23:06.595+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=sql_to_elastic
+AIRFLOW_CTX_TASK_ID=dataCleaning
+AIRFLOW_CTX_EXECUTION_DATE=2025-09-20T09:23:03.034691+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-09-20T09:23:03.034691+00:00
+[2025-09-20T09:23:06.668+0000] {logging_mixin.py:115} INFO -          0   1       2   3     4   ...     15       16         17       18      19
+0     10107  30   95.70   2  2871  ...  10022      USA         Yu     Kwai   Small
+1     10121  34   81.35   5  2765  ...  51100   France    Henriot     Paul   Small
+2     10134  41   94.74   2  3884  ...  75508   France   Da Cunha   Daniel  Medium
+3     10145  45   83.26   6  3746  ...  90003      USA      Young    Julie  Medium
+4     10168  36   96.66   1  3479  ...  94217      USA     Hirano     Juri  Medium
+...     ...  ..     ...  ..   ...  ...    ...      ...        ...      ...     ...
+2742  10350  20  112.22  15  2244  ...  28034    Spain     Freyre    Diego   Small
+2743  10373  29  137.19   1  3978  ...  90110  Finland  Koskitalo   Pirkko  Medium
+2744  10386  43  125.99   4  5417  ...  28034    Spain     Freyre    Diego  Medium
+2745  10397  34   62.24   1  2116  ...  31000   France     Roulet  Annette   Small
+2746  10414  47   65.52   9  3079  ...  51003      USA    Yoshido     Juri  Medium
+
+[2747 rows x 20 columns]
+[2025-09-20T09:23:06.669+0000] {taskinstance.py:1902} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag.py", line 33, in dataCleaning
+    kwargs['ti'].xcom_push(key='data', value=data + "2")
+TypeError: can only concatenate list (not "str") to list
+[2025-09-20T09:23:06.676+0000] {taskinstance.py:1412} INFO - Marking task as FAILED. dag_id=sql_to_elastic, task_id=dataCleaning, execution_date=20250920T092303, start_date=20250920T092306, end_date=20250920T092306
+[2025-09-20T09:23:06.687+0000] {standard_task_runner.py:97} ERROR - Failed to execute job 155 for task dataCleaning (can only concatenate list (not "str") to list; 2172)
+[2025-09-20T09:23:06.712+0000] {local_task_job.py:156} INFO - Task exited with return code 1
+[2025-09-20T09:23:06.748+0000] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

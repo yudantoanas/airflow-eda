@@ -1,0 +1,608 @@
+[2025-09-22T01:17:37.381+0000] {processor.py:153} INFO - Started process (PID=218) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:17:37.382+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:17:37.383+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:17:37.383+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:17:38.811+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:17:39.581+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:17:39.577+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:17:39.752+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:17:39.751+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:17:38.805503+00:00, run_after=2025-09-23T01:17:38.805503+00:00
+[2025-09-22T01:17:39.849+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 2.473 seconds
+[2025-09-22T01:18:10.383+0000] {processor.py:153} INFO - Started process (PID=225) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:18:10.386+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:18:10.388+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:18:10.388+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:18:13.149+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:18:13.274+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:18:13.273+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:18:13.301+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:18:13.301+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:18:13.146545+00:00, run_after=2025-09-23T01:18:13.146545+00:00
+[2025-09-22T01:18:13.318+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 2.962 seconds
+[2025-09-22T01:18:43.640+0000] {processor.py:153} INFO - Started process (PID=231) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:18:43.643+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:18:43.646+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:18:43.646+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:18:44.993+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:18:45.091+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:18:45.090+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:18:45.115+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:18:45.115+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:18:44.990090+00:00, run_after=2025-09-23T01:18:44.990090+00:00
+[2025-09-22T01:18:45.131+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.507 seconds
+[2025-09-22T01:19:15.396+0000] {processor.py:153} INFO - Started process (PID=237) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:19:15.400+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:19:15.403+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:19:15.402+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:19:16.160+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:19:16.245+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:19:16.244+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:19:16.272+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:19:16.272+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:19:16.159352+00:00, run_after=2025-09-23T01:19:16.159352+00:00
+[2025-09-22T01:19:16.284+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.895 seconds
+[2025-09-22T01:19:24.463+0000] {processor.py:153} INFO - Started process (PID=243) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:19:24.465+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:19:24.466+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:19:24.466+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:19:25.146+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:19:25.179+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:19:25.179+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:19:25.207+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:19:25.206+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:19:25.144921+00:00, run_after=2025-09-23T01:19:25.144921+00:00
+[2025-09-22T01:19:25.220+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.765 seconds
+[2025-09-22T01:19:55.420+0000] {processor.py:153} INFO - Started process (PID=249) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:19:55.422+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:19:55.423+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:19:55.423+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:19:56.026+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:19:56.104+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:19:56.103+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:19:56.123+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:19:56.123+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:19:56.025304+00:00, run_after=2025-09-23T01:19:56.025304+00:00
+[2025-09-22T01:19:56.134+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.727 seconds
+[2025-09-22T01:20:26.928+0000] {processor.py:153} INFO - Started process (PID=261) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:20:26.935+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:20:26.941+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:20:26.941+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:20:28.242+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:20:28.325+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:20:28.325+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:20:28.345+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:20:28.345+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:20:28.239000+00:00, run_after=2025-09-23T01:20:28.239000+00:00
+[2025-09-22T01:20:28.361+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.453 seconds
+[2025-09-22T01:20:44.682+0000] {processor.py:153} INFO - Started process (PID=267) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:20:44.684+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:20:44.686+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:20:44.686+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:20:48.132+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:20:48.196+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:20:48.194+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:20:48.221+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:20:48.221+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:20:48.129051+00:00, run_after=2025-09-23T01:20:48.129051+00:00
+[2025-09-22T01:20:48.237+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 3.564 seconds
+[2025-09-22T01:21:18.386+0000] {processor.py:153} INFO - Started process (PID=279) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:21:18.391+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:21:18.393+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:21:18.392+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:21:19.164+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:21:19.245+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:21:19.245+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:21:19.313+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:21:19.312+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:21:19.162713+00:00, run_after=2025-09-23T01:21:19.162713+00:00
+[2025-09-22T01:21:19.324+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.957 seconds
+[2025-09-22T01:21:25.845+0000] {processor.py:153} INFO - Started process (PID=285) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:21:25.847+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:21:25.848+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:21:25.848+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:21:26.517+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:21:26.539+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:21:26.539+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:21:26.556+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:21:26.556+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:21:26.515939+00:00, run_after=2025-09-23T01:21:26.515939+00:00
+[2025-09-22T01:21:26.567+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.735 seconds
+[2025-09-22T01:21:28.876+0000] {processor.py:153} INFO - Started process (PID=291) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:21:28.878+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:21:28.882+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:21:28.882+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:21:29.617+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:21:29.646+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:21:29.645+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:21:29.669+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:21:29.669+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:21:29.616010+00:00, run_after=2025-09-23T01:21:29.616010+00:00
+[2025-09-22T01:21:29.683+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.823 seconds
+[2025-09-22T01:21:59.768+0000] {processor.py:153} INFO - Started process (PID=303) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:21:59.769+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:21:59.771+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:21:59.770+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:22:00.492+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:22:00.575+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:22:00.575+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:22:00.593+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:22:00.593+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:22:00.491449+00:00, run_after=2025-09-23T01:22:00.491449+00:00
+[2025-09-22T01:22:00.603+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.842 seconds
+[2025-09-22T01:22:31.702+0000] {processor.py:153} INFO - Started process (PID=309) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:22:31.704+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:22:31.706+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:22:31.706+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:22:31.716+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:22:31.711+0000] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 34
+    df = pd.DataFrame(data, columns=data[])
+                                         ^
+SyntaxError: invalid syntax
+[2025-09-22T01:22:31.717+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:22:31.785+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.097 seconds
+[2025-09-22T01:22:32.700+0000] {processor.py:153} INFO - Started process (PID=314) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:22:32.701+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:22:32.702+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:22:32.702+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:22:32.705+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:22:32.704+0000] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 35
+    df = pd.DataFrame(data, columns=data[])
+                                         ^
+SyntaxError: invalid syntax
+[2025-09-22T01:22:32.706+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:22:32.757+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.061 seconds
+[2025-09-22T01:22:36.802+0000] {processor.py:153} INFO - Started process (PID=319) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:22:36.804+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:22:36.807+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:22:36.807+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:22:37.674+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:22:37.762+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:22:37.759+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:22:37.786+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:22:37.786+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:22:37.668763+00:00, run_after=2025-09-23T01:22:37.668763+00:00
+[2025-09-22T01:22:37.807+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.014 seconds
+[2025-09-22T01:23:08.074+0000] {processor.py:153} INFO - Started process (PID=325) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:23:08.075+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:23:08.076+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:23:08.076+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:23:08.746+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:23:08.800+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:23:08.800+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:23:08.829+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:23:08.829+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:23:08.745632+00:00, run_after=2025-09-23T01:23:08.745632+00:00
+[2025-09-22T01:23:08.840+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.771 seconds
+[2025-09-22T01:23:39.041+0000] {processor.py:153} INFO - Started process (PID=331) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:23:39.044+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:23:39.045+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:23:39.045+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:23:39.688+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:23:39.742+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:23:39.742+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:23:39.761+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:23:39.761+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:23:39.687445+00:00, run_after=2025-09-23T01:23:39.687445+00:00
+[2025-09-22T01:23:39.775+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.740 seconds
+[2025-09-22T01:24:09.984+0000] {processor.py:153} INFO - Started process (PID=337) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:24:09.987+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:24:09.988+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:24:09.988+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:24:10.666+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:24:10.727+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:24:10.727+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:24:10.746+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:24:10.746+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:24:10.664825+00:00, run_after=2025-09-23T01:24:10.664825+00:00
+[2025-09-22T01:24:10.756+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.783 seconds
+[2025-09-22T01:24:41.024+0000] {processor.py:153} INFO - Started process (PID=343) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:24:41.026+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:24:41.027+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:24:41.027+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:24:41.728+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:24:41.793+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:24:41.792+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:24:41.813+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:24:41.813+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:24:41.726963+00:00, run_after=2025-09-23T01:24:41.726963+00:00
+[2025-09-22T01:24:41.829+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.814 seconds
+[2025-09-22T01:25:12.094+0000] {processor.py:153} INFO - Started process (PID=349) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:25:12.096+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:25:12.097+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:25:12.097+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:25:12.752+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:25:12.835+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:25:12.835+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:25:12.853+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:25:12.853+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:25:12.751639+00:00, run_after=2025-09-23T01:25:12.751639+00:00
+[2025-09-22T01:25:12.865+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.783 seconds
+[2025-09-22T01:25:43.112+0000] {processor.py:153} INFO - Started process (PID=364) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:25:43.115+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:25:43.118+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:25:43.118+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:25:44.752+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:25:45.124+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:25:45.121+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:25:45.197+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:25:45.197+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:25:44.747274+00:00, run_after=2025-09-23T01:25:44.747274+00:00
+[2025-09-22T01:25:45.246+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 2.159 seconds
+[2025-09-22T01:25:59.911+0000] {processor.py:153} INFO - Started process (PID=370) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:25:59.914+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:25:59.920+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:25:59.920+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:26:06.518+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:26:06.590+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:06.583+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:26:06.621+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:06.621+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:26:06.505448+00:00, run_after=2025-09-23T01:26:06.505448+00:00
+[2025-09-22T01:26:06.637+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 6.833 seconds
+[2025-09-22T01:26:08.787+0000] {processor.py:153} INFO - Started process (PID=376) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:26:08.791+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:26:08.795+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:08.795+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:26:11.512+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:26:11.599+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:11.595+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:26:11.630+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:11.630+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:26:11.510028+00:00, run_after=2025-09-23T01:26:11.510028+00:00
+[2025-09-22T01:26:11.667+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 2.901 seconds
+[2025-09-22T01:26:14.548+0000] {processor.py:153} INFO - Started process (PID=382) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:26:14.551+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:26:14.552+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:14.552+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:26:17.046+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:26:17.194+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:17.192+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:26:17.223+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:17.223+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-27T09:10:00+00:00, run_after=2025-09-27T09:20:00+00:00
+[2025-09-22T01:26:17.256+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 2.730 seconds
+[2025-09-22T01:26:26.471+0000] {processor.py:153} INFO - Started process (PID=388) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:26:26.476+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:26:26.477+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:26.477+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:26:27.912+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:26:27.979+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:27.978+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:26:28.002+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:28.002+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2024-11-01T00:00:00+00:00, run_after=2024-11-02T00:00:00+00:00
+[2025-09-22T01:26:28.023+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.560 seconds
+[2025-09-22T01:26:30.692+0000] {processor.py:153} INFO - Started process (PID=394) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:26:30.697+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:26:30.717+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:30.716+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:26:31.656+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:26:31.699+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:31.698+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:26:31.729+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:31.728+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-11-01T00:00:00+00:00, run_after=2025-11-02T00:00:00+00:00
+[2025-09-22T01:26:31.740+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.107 seconds
+[2025-09-22T01:26:35.854+0000] {processor.py:153} INFO - Started process (PID=400) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:26:35.857+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:26:35.863+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:35.863+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:26:36.726+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:26:36.755+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:36.755+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:26:36.786+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:36.786+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-01T00:00:00+00:00, run_after=2025-09-02T00:00:00+00:00
+[2025-09-22T01:26:36.798+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.956 seconds
+[2025-09-22T01:26:47.091+0000] {processor.py:153} INFO - Started process (PID=406) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:26:47.093+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:26:47.094+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:47.094+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:26:48.074+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:26:48.177+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:48.175+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:26:48.205+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:26:48.205+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-06T09:10:00+00:00, run_after=2025-09-06T09:20:00+00:00
+[2025-09-22T01:26:48.219+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.143 seconds
+[2025-09-22T01:27:18.984+0000] {processor.py:153} INFO - Started process (PID=456) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:27:18.995+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:27:19.003+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:27:19.002+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:27:33.250+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:27:33.646+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:27:33.638+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:27:33.730+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:27:33.730+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-20T09:30:00+00:00, run_after=2025-09-27T09:10:00+00:00
+[2025-09-22T01:27:33.788+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 15.101 seconds
+[2025-09-22T01:28:05.251+0000] {processor.py:153} INFO - Started process (PID=490) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:28:05.261+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:28:05.267+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:28:05.266+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:28:08.145+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:28:08.949+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:28:08.939+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:28:09.229+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:28:09.228+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-20T09:30:00+00:00, run_after=2025-09-27T09:10:00+00:00
+[2025-09-22T01:28:09.361+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 4.153 seconds
+[2025-09-22T01:28:39.915+0000] {processor.py:153} INFO - Started process (PID=496) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:28:39.917+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:28:39.921+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:28:39.920+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:28:42.984+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:28:43.025+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:28:43.024+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:28:43.053+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:28:43.052+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-20T09:30:00+00:00, run_after=2025-09-27T09:10:00+00:00
+[2025-09-22T01:28:43.065+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 3.167 seconds
+[2025-09-22T01:29:13.242+0000] {processor.py:153} INFO - Started process (PID=502) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:29:13.245+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:29:13.248+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:29:13.247+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:29:14.643+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:29:14.677+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:29:14.676+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:29:14.708+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:29:14.708+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-20T09:30:00+00:00, run_after=2025-09-27T09:10:00+00:00
+[2025-09-22T01:29:14.721+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.511 seconds
+[2025-09-22T01:29:45.556+0000] {processor.py:153} INFO - Started process (PID=508) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:29:45.563+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:29:45.569+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:29:45.569+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:29:46.518+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:29:46.556+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:29:46.556+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:29:46.579+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:29:46.579+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-20T09:30:00+00:00, run_after=2025-09-27T09:10:00+00:00
+[2025-09-22T01:29:46.587+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.084 seconds
+[2025-09-22T01:30:16.872+0000] {processor.py:153} INFO - Started process (PID=514) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:30:16.873+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:30:16.875+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:30:16.875+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:30:17.755+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:30:17.793+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:30:17.792+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:30:17.824+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:30:17.824+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-20T09:30:00+00:00, run_after=2025-09-27T09:10:00+00:00
+[2025-09-22T01:30:17.836+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.990 seconds
+[2025-09-22T01:30:48.676+0000] {processor.py:153} INFO - Started process (PID=528) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:30:48.694+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:30:48.759+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:30:48.730+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:31:02.962+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:31:02.876+0000] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 121, in <module>
+    python_callable=fetchDB
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2173, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-09-22T01:31:02.972+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:31:03.411+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 16.624 seconds
+[2025-09-22T01:31:07.528+0000] {processor.py:153} INFO - Started process (PID=546) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:31:07.535+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:31:07.546+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:31:07.545+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:31:20.534+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:31:20.379+0000] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 121, in <module>
+    python_callable=fetchDB
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 880, in __init__
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 990, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1048, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2173, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2025-09-22T01:31:20.639+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:31:21.771+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 14.451 seconds
+[2025-09-22T01:31:44.718+0000] {processor.py:153} INFO - Started process (PID=552) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:31:44.720+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:31:44.724+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:31:44.724+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:31:52.752+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:31:53.109+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:31:53.105+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:31:53.165+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:31:53.165+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-20T09:30:00+00:00, run_after=2025-09-21T09:30:00+00:00
+[2025-09-22T01:31:53.250+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 8.557 seconds
+[2025-09-22T01:31:56.151+0000] {processor.py:153} INFO - Started process (PID=559) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:31:56.157+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:31:56.162+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:31:56.161+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:32:02.163+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:32:02.270+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:32:02.267+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:32:02.334+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:32:02.334+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:32:02.137114+00:00, run_after=2025-09-23T01:32:02.137114+00:00
+[2025-09-22T01:32:02.382+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 6.268 seconds
+[2025-09-22T01:32:33.513+0000] {processor.py:153} INFO - Started process (PID=577) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:32:33.520+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:32:33.525+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:32:33.525+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:33:04.838+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:33:04.083+0000] {timeout.py:67} ERROR - Process timed out, PID: 577
+[2025-09-22T01:33:19.170+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:33:05.255+0000] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 6, in <module>
+    from airflow.providers.elasticsearch.hooks.elasticsearch import ElasticsearchPythonHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/elasticsearch/hooks/elasticsearch.py", line 21, in <module>
+    from elasticsearch import Elasticsearch
+  File "/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/__init__.py", line 36, in <module>
+    from .client import Elasticsearch
+  File "/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/client/__init__.py", line 23, in <module>
+    from ..transport import Transport, TransportError
+  File "/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/transport.py", line 31, in <module>
+    from .serializer import DEFAULT_SERIALIZERS, Deserializer, JSONSerializer
+  File "/home/airflow/.local/lib/python3.7/site-packages/elasticsearch/serializer.py", line 59, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 50, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/api.py", line 48, in <module>
+    from pandas.core.groupby import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/groupby/__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/groupby/generic.py", line 73, in <module>
+    from pandas.core.frame import DataFrame
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/frame.py", line 193, in <module>
+    from pandas.core.series import Series
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/series.py", line 141, in <module>
+    import pandas.plotting
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/plotting/__init__.py", line 58, in <module>
+    from pandas.plotting._core import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/plotting/_core.py", line 494, in <module>
+    @Substitution(backend=_backend_doc)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 437, in __init__
+    if args and kwargs:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 68, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.3.4/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.3.4/best-practices.html#reducing-dag-complexity, PID: 577
+[2025-09-22T01:33:19.425+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:33:20.273+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 46.816 seconds
+[2025-09-22T01:35:46.452+0000] {processor.py:153} INFO - Started process (PID=57) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:35:46.455+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:35:46.457+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:35:46.457+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:35:47.926+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:35:48.063+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:35:48.062+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:sql_to_elastic
+[2025-09-22T01:35:48.094+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:35:48.093+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:sql_to_elastic
+[2025-09-22T01:35:48.125+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:35:48.124+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:sql_to_elastic
+[2025-09-22T01:35:48.127+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:35:48.126+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:35:48.140+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:35:48.140+0000] {dag.py:2448} INFO - Creating ORM DAG for sql_to_elastic
+[2025-09-22T01:35:48.165+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:35:48.165+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:35:47.922621+00:00, run_after=2025-09-23T01:35:47.922621+00:00
+[2025-09-22T01:35:48.183+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.745 seconds
+[2025-09-22T01:36:19.172+0000] {processor.py:153} INFO - Started process (PID=59) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:36:19.174+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:36:19.177+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:36:19.176+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:36:20.129+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:36:20.179+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:36:20.179+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:36:20.195+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:36:20.194+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:36:20.128028+00:00, run_after=2025-09-23T01:36:20.128028+00:00
+[2025-09-22T01:36:20.271+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.113 seconds
+[2025-09-22T01:36:50.507+0000] {processor.py:153} INFO - Started process (PID=61) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:36:50.509+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:36:50.509+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:36:50.509+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:36:51.129+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:36:51.162+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:36:51.162+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:36:51.174+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:36:51.174+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:36:51.127937+00:00, run_after=2025-09-23T01:36:51.127937+00:00
+[2025-09-22T01:36:51.213+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.716 seconds
+[2025-09-22T01:37:21.873+0000] {processor.py:153} INFO - Started process (PID=63) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:37:21.875+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:37:21.876+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:37:21.875+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:37:22.484+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:37:22.519+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:37:22.519+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:37:22.536+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:37:22.536+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:37:22.483615+00:00, run_after=2025-09-23T01:37:22.483615+00:00
+[2025-09-22T01:37:22.570+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.704 seconds
+[2025-09-22T01:37:53.049+0000] {processor.py:153} INFO - Started process (PID=65) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:37:53.050+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:37:53.051+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:37:53.051+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:37:53.642+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:37:53.675+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:37:53.674+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:37:53.689+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:37:53.689+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:37:53.641315+00:00, run_after=2025-09-23T01:37:53.641315+00:00
+[2025-09-22T01:37:53.701+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.658 seconds
+[2025-09-22T01:38:24.702+0000] {processor.py:153} INFO - Started process (PID=67) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:38:24.708+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:38:24.719+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:38:24.718+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:38:26.280+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:38:26.338+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:38:26.337+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:38:26.356+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:38:26.356+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:38:26.275725+00:00, run_after=2025-09-23T01:38:26.275725+00:00
+[2025-09-22T01:38:26.381+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.733 seconds
+[2025-09-22T01:38:56.919+0000] {processor.py:153} INFO - Started process (PID=69) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:38:56.925+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:38:56.926+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:38:56.926+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:38:57.733+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:38:57.778+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:38:57.777+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:38:57.795+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:38:57.795+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:38:57.730862+00:00, run_after=2025-09-23T01:38:57.730862+00:00
+[2025-09-22T01:38:57.828+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.918 seconds
+[2025-09-22T01:39:28.184+0000] {processor.py:153} INFO - Started process (PID=71) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:39:28.191+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:39:28.196+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:39:28.196+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:39:30.546+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:39:30.652+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:39:30.651+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:39:30.690+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:39:30.689+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:39:30.540089+00:00, run_after=2025-09-23T01:39:30.540089+00:00
+[2025-09-22T01:39:30.718+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 2.543 seconds
+[2025-09-22T01:40:01.467+0000] {processor.py:153} INFO - Started process (PID=73) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:40:01.478+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:40:01.482+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:40:01.482+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:40:02.605+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:40:02.651+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:40:02.651+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:40:02.671+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:40:02.671+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:40:02.602940+00:00, run_after=2025-09-23T01:40:02.602940+00:00
+[2025-09-22T01:40:02.713+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.264 seconds
+[2025-09-22T01:40:32.942+0000] {processor.py:153} INFO - Started process (PID=75) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:40:32.944+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:40:32.945+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:40:32.945+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:40:33.589+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:40:33.638+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:40:33.637+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:40:33.665+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:40:33.665+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:40:33.588643+00:00, run_after=2025-09-23T01:40:33.588643+00:00
+[2025-09-22T01:40:33.679+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.745 seconds
+[2025-09-22T01:41:03.888+0000] {processor.py:153} INFO - Started process (PID=77) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:41:03.890+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:41:03.891+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:41:03.891+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:41:04.517+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:41:04.552+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:41:04.551+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:41:04.566+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:41:04.566+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:41:04.515668+00:00, run_after=2025-09-23T01:41:04.515668+00:00
+[2025-09-22T01:41:04.579+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.704 seconds
+[2025-09-22T01:41:34.813+0000] {processor.py:153} INFO - Started process (PID=79) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:41:34.815+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:41:34.816+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:41:34.816+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:41:35.567+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:41:35.615+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:41:35.614+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:41:35.635+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:41:35.635+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:41:35.563881+00:00, run_after=2025-09-23T01:41:35.563881+00:00
+[2025-09-22T01:41:35.664+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.865 seconds
+[2025-09-22T01:42:05.988+0000] {processor.py:153} INFO - Started process (PID=81) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:42:05.990+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:42:05.991+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:42:05.991+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:42:06.612+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:42:06.649+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:42:06.648+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:42:06.661+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:42:06.661+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:42:06.610883+00:00, run_after=2025-09-23T01:42:06.610883+00:00
+[2025-09-22T01:42:06.679+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.700 seconds
+[2025-09-22T01:42:36.877+0000] {processor.py:153} INFO - Started process (PID=83) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:42:36.878+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:42:36.879+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:42:36.879+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:42:37.517+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:42:37.576+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:42:37.575+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:42:37.590+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:42:37.589+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:42:37.515410+00:00, run_after=2025-09-23T01:42:37.515410+00:00
+[2025-09-22T01:42:37.602+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.736 seconds
+[2025-09-22T01:43:07.831+0000] {processor.py:153} INFO - Started process (PID=85) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:43:07.833+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:43:07.833+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:43:07.833+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:43:08.406+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:43:08.470+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:43:08.469+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:43:08.486+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:43:08.486+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:43:08.404380+00:00, run_after=2025-09-23T01:43:08.404380+00:00
+[2025-09-22T01:43:08.514+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.691 seconds
+[2025-09-22T01:43:38.675+0000] {processor.py:153} INFO - Started process (PID=87) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:43:38.678+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:43:38.682+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:43:38.681+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:43:39.312+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:43:39.349+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:43:39.349+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:43:39.362+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:43:39.362+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:43:39.311313+00:00, run_after=2025-09-23T01:43:39.311313+00:00
+[2025-09-22T01:43:39.373+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.708 seconds
+[2025-09-22T01:44:09.798+0000] {processor.py:153} INFO - Started process (PID=89) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:44:09.804+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:44:09.808+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:44:09.807+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:44:11.007+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:44:11.075+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:44:11.075+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:44:11.093+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:44:11.093+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:44:11.005538+00:00, run_after=2025-09-23T01:44:11.005538+00:00
+[2025-09-22T01:44:11.108+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.328 seconds
+[2025-09-22T01:44:41.571+0000] {processor.py:153} INFO - Started process (PID=91) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:44:41.576+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:44:41.579+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:44:41.579+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:44:42.222+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:44:42.262+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:44:42.262+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:44:42.275+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:44:42.275+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:44:42.220318+00:00, run_after=2025-09-23T01:44:42.220318+00:00
+[2025-09-22T01:44:42.286+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.726 seconds
+[2025-09-22T01:45:12.536+0000] {processor.py:153} INFO - Started process (PID=93) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:45:12.539+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:45:12.540+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:45:12.540+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:45:13.251+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:45:13.303+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:45:13.302+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:45:13.319+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:45:13.319+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:45:13.249999+00:00, run_after=2025-09-23T01:45:13.249999+00:00
+[2025-09-22T01:45:13.335+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.811 seconds
+[2025-09-22T01:45:43.687+0000] {processor.py:153} INFO - Started process (PID=95) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:45:43.695+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:45:43.699+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:45:43.699+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:45:45.062+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:45:45.371+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:45:45.369+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:45:45.478+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:45:45.476+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:45:45.060471+00:00, run_after=2025-09-23T01:45:45.060471+00:00
+[2025-09-22T01:45:45.553+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.894 seconds
+[2025-09-22T01:46:15.848+0000] {processor.py:153} INFO - Started process (PID=97) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:46:15.852+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:46:15.853+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:46:15.853+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:46:16.496+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:46:16.549+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:46:16.548+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:46:16.569+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:46:16.569+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:46:16.494775+00:00, run_after=2025-09-23T01:46:16.494775+00:00
+[2025-09-22T01:46:16.582+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.746 seconds
+[2025-09-22T01:46:46.821+0000] {processor.py:153} INFO - Started process (PID=99) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:46:46.823+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:46:46.823+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:46:46.823+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:46:47.378+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:46:47.433+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:46:47.433+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:46:47.446+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:46:47.446+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:46:47.377443+00:00, run_after=2025-09-23T01:46:47.377443+00:00
+[2025-09-22T01:46:47.458+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.647 seconds
+[2025-09-22T01:47:17.620+0000] {processor.py:153} INFO - Started process (PID=101) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:47:17.623+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:47:17.625+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:47:17.625+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:47:18.215+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:47:18.263+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:47:18.262+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:47:18.281+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:47:18.280+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:47:18.214482+00:00, run_after=2025-09-23T01:47:18.214482+00:00
+[2025-09-22T01:47:18.292+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.678 seconds
+[2025-09-22T01:47:48.508+0000] {processor.py:153} INFO - Started process (PID=103) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:47:48.511+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:47:48.512+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:47:48.512+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:47:49.170+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:47:49.212+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:47:49.211+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:47:49.225+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:47:49.225+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:47:49.169326+00:00, run_after=2025-09-23T01:47:49.169326+00:00
+[2025-09-22T01:47:49.237+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.742 seconds
+[2025-09-22T01:48:19.508+0000] {processor.py:153} INFO - Started process (PID=105) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:48:19.511+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:48:19.512+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:48:19.512+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:48:20.303+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:48:20.357+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:48:20.356+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:48:20.371+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:48:20.371+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:48:20.301514+00:00, run_after=2025-09-23T01:48:20.301514+00:00
+[2025-09-22T01:48:20.383+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.899 seconds
+[2025-09-22T01:48:50.693+0000] {processor.py:153} INFO - Started process (PID=107) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:48:50.702+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:48:50.706+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:48:50.706+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:48:51.606+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:48:51.658+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:48:51.656+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:48:51.673+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:48:51.672+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:48:51.604369+00:00, run_after=2025-09-23T01:48:51.604369+00:00
+[2025-09-22T01:48:51.685+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.014 seconds
+[2025-09-22T01:49:21.971+0000] {processor.py:153} INFO - Started process (PID=109) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:49:21.973+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:49:21.974+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:49:21.974+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:49:22.780+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:49:22.817+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:49:22.817+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:49:22.831+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:49:22.831+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:49:22.779355+00:00, run_after=2025-09-23T01:49:22.779355+00:00
+[2025-09-22T01:49:22.850+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.889 seconds
+[2025-09-22T01:49:52.993+0000] {processor.py:153} INFO - Started process (PID=111) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:49:52.999+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:49:53.000+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:49:53.000+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:49:53.772+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:49:53.816+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:49:53.816+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:49:53.849+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:49:53.849+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:49:53.770738+00:00, run_after=2025-09-23T01:49:53.770738+00:00
+[2025-09-22T01:49:53.869+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.886 seconds
+[2025-09-22T01:50:24.120+0000] {processor.py:153} INFO - Started process (PID=113) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:50:24.123+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:50:24.124+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:50:24.124+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:50:25.037+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:50:25.093+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:50:25.092+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:50:25.109+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:50:25.108+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:50:25.035201+00:00, run_after=2025-09-23T01:50:25.035201+00:00
+[2025-09-22T01:50:25.121+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.031 seconds
+[2025-09-22T01:50:55.442+0000] {processor.py:153} INFO - Started process (PID=115) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:50:55.444+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:50:55.445+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:50:55.445+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:50:56.140+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:50:56.207+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:50:56.207+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:50:56.220+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:50:56.220+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:50:56.136836+00:00, run_after=2025-09-23T01:50:56.136836+00:00
+[2025-09-22T01:50:56.250+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 0.815 seconds
+[2025-09-22T01:52:43.088+0000] {processor.py:153} INFO - Started process (PID=57) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:52:43.090+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:52:43.091+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:52:43.091+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:52:43.712+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:52:44.051+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:52:44.050+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:sql_to_elastic
+[2025-09-22T01:52:44.118+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:52:44.118+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:sql_to_elastic
+[2025-09-22T01:52:44.127+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:52:44.127+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:sql_to_elastic
+[2025-09-22T01:52:44.128+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:52:44.127+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:52:44.140+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:52:44.139+0000] {dag.py:2448} INFO - Creating ORM DAG for sql_to_elastic
+[2025-09-22T01:52:44.157+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:52:44.157+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:52:43.710758+00:00, run_after=2025-09-23T01:52:43.710758+00:00
+[2025-09-22T01:52:44.172+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 1.088 seconds
+[2025-09-22T01:53:14.591+0000] {processor.py:153} INFO - Started process (PID=59) to work on /opt/airflow/dags/dag.py
+[2025-09-22T01:53:14.593+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2025-09-22T01:53:14.594+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:53:14.593+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2025-09-22T01:53:16.069+0000] {processor.py:650} INFO - DAG(s) dict_keys(['sql_to_elastic']) retrieved from /opt/airflow/dags/dag.py
+[2025-09-22T01:53:16.505+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:53:16.503+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2025-09-22T01:53:16.553+0000] {logging_mixin.py:115} INFO - [2025-09-22T01:53:16.553+0000] {dag.py:2981} INFO - Setting next_dagrun for sql_to_elastic to 2025-09-22T01:53:16.065576+00:00, run_after=2025-09-23T01:53:16.065576+00:00
+[2025-09-22T01:53:16.630+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/dag.py took 2.055 seconds

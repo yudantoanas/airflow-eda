@@ -1,0 +1,4 @@
+*/__pycache__
+/pg_data
+/.vscode
+.env

@@ -1,0 +1,23 @@
+[2025-09-20T08:49:52.111+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: sql_to_elastic.saveToElastic scheduled__2024-12-14T09:10:00+00:00 [queued]>
+[2025-09-20T08:49:52.128+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: sql_to_elastic.saveToElastic scheduled__2024-12-14T09:10:00+00:00 [queued]>
+[2025-09-20T08:49:52.128+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-20T08:49:52.129+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 2
+[2025-09-20T08:49:52.129+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-20T08:49:52.157+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): saveToElastic> on 2024-12-14 09:10:00+00:00
+[2025-09-20T08:49:52.175+0000] {standard_task_runner.py:52} INFO - Started process 1240 to run task
+[2025-09-20T08:49:52.192+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'sql_to_elastic', 'saveToElastic', 'scheduled__2024-12-14T09:10:00+00:00', '--job-id', '64', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmprowx3khy', '--error-file', '/tmp/tmpqsxn8nkt']
+[2025-09-20T08:49:52.197+0000] {standard_task_runner.py:80} INFO - Job 64: Subtask saveToElastic
+[2025-09-20T08:49:52.353+0000] {task_command.py:371} INFO - Running <TaskInstance: sql_to_elastic.saveToElastic scheduled__2024-12-14T09:10:00+00:00 [running]> on host 564f5208acb9
+[2025-09-20T08:49:52.603+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=sql_to_elastic
+AIRFLOW_CTX_TASK_ID=saveToElastic
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-14T09:10:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-12-14T09:10:00+00:00
+[2025-09-20T08:49:52.684+0000] {python.py:173} INFO - Done. Returned value was: None
+[2025-09-20T08:49:52.712+0000] {taskinstance.py:1412} INFO - Marking task as SUCCESS. dag_id=sql_to_elastic, task_id=saveToElastic, execution_date=20241214T091000, start_date=20250920T084952, end_date=20250920T084952
+[2025-09-20T08:49:52.789+0000] {local_task_job.py:156} INFO - Task exited with return code 0
+[2025-09-20T08:49:53.011+0000] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

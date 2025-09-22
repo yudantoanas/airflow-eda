@@ -1,0 +1,23 @@
+[2025-09-20T08:49:08.909+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: sql_to_elastic.dataCleaning manual__2025-09-20T08:48:45.298216+00:00 [queued]>
+[2025-09-20T08:49:09.279+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: sql_to_elastic.dataCleaning manual__2025-09-20T08:48:45.298216+00:00 [queued]>
+[2025-09-20T08:49:09.285+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-20T08:49:09.287+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 2
+[2025-09-20T08:49:09.294+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-20T08:49:09.614+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): dataCleaning> on 2025-09-20 08:48:45.298216+00:00
+[2025-09-20T08:49:09.822+0000] {standard_task_runner.py:52} INFO - Started process 1112 to run task
+[2025-09-20T08:49:09.846+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'sql_to_elastic', 'dataCleaning', 'manual__2025-09-20T08:48:45.298216+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpoh7rksvg', '--error-file', '/tmp/tmpnn1cggzo']
+[2025-09-20T08:49:09.863+0000] {standard_task_runner.py:80} INFO - Job 16: Subtask dataCleaning
+[2025-09-20T08:49:10.546+0000] {task_command.py:371} INFO - Running <TaskInstance: sql_to_elastic.dataCleaning manual__2025-09-20T08:48:45.298216+00:00 [running]> on host 564f5208acb9
+[2025-09-20T08:49:11.204+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=sql_to_elastic
+AIRFLOW_CTX_TASK_ID=dataCleaning
+AIRFLOW_CTX_EXECUTION_DATE=2025-09-20T08:48:45.298216+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-09-20T08:48:45.298216+00:00
+[2025-09-20T08:49:11.668+0000] {python.py:173} INFO - Done. Returned value was: None
+[2025-09-20T08:49:12.103+0000] {taskinstance.py:1412} INFO - Marking task as SUCCESS. dag_id=sql_to_elastic, task_id=dataCleaning, execution_date=20250920T084845, start_date=20250920T084908, end_date=20250920T084912
+[2025-09-20T08:49:12.517+0000] {local_task_job.py:156} INFO - Task exited with return code 0
+[2025-09-20T08:49:12.949+0000] {local_task_job.py:279} INFO - 1 downstream tasks scheduled from follow-on schedule check

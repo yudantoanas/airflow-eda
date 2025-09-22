@@ -1,0 +1,74 @@
+[2025-09-20T09:39:30.636+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: sql_to_elastic.dataCleaning manual__2025-09-20T09:39:25.892671+00:00 [queued]>
+[2025-09-20T09:39:30.663+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: sql_to_elastic.dataCleaning manual__2025-09-20T09:39:25.892671+00:00 [queued]>
+[2025-09-20T09:39:30.663+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-20T09:39:30.664+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 1
+[2025-09-20T09:39:30.665+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-20T09:39:30.712+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): dataCleaning> on 2025-09-20 09:39:25.892671+00:00
+[2025-09-20T09:39:30.754+0000] {standard_task_runner.py:52} INFO - Started process 2783 to run task
+[2025-09-20T09:39:30.765+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'sql_to_elastic', 'dataCleaning', 'manual__2025-09-20T09:39:25.892671+00:00', '--job-id', '182', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmp5pd7g7ws', '--error-file', '/tmp/tmpydxe4vuj']
+[2025-09-20T09:39:30.769+0000] {standard_task_runner.py:80} INFO - Job 182: Subtask dataCleaning
+[2025-09-20T09:39:30.981+0000] {task_command.py:371} INFO - Running <TaskInstance: sql_to_elastic.dataCleaning manual__2025-09-20T09:39:25.892671+00:00 [running]> on host 564f5208acb9
+[2025-09-20T09:39:31.122+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=sql_to_elastic
+AIRFLOW_CTX_TASK_ID=dataCleaning
+AIRFLOW_CTX_EXECUTION_DATE=2025-09-20T09:39:25.892671+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-09-20T09:39:25.892671+00:00
+[2025-09-20T09:39:31.237+0000] {logging_mixin.py:115} INFO - <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2747 entries, 0 to 2746
+Data columns (total 20 columns):
+ #   Column              Non-Null Count  Dtype         
+---  ------              --------------  -----         
+ 0   order_number        2747 non-null   int64         
+ 1   order_quantity      2747 non-null   int64         
+ 2   product_price       2747 non-null   float64       
+ 3   order_line_number   2747 non-null   int64         
+ 4   sales               2747 non-null   int64         
+ 5   order_date          2747 non-null   datetime64[ns]
+ 6   days_since          2747 non-null   int64         
+ 7   order_status        2747 non-null   object        
+ 8   product_line        2747 non-null   object        
+ 9   product_msrp        2747 non-null   int64         
+ 10  product_code        2747 non-null   object        
+ 11  customer_name       2747 non-null   object        
+ 12  phone               2747 non-null   object        
+ 13  address             2747 non-null   object        
+ 14  city                2747 non-null   object        
+ 15  postal_code         2747 non-null   object        
+ 16  country             2747 non-null   object        
+ 17  contact_last_name   2747 non-null   object        
+ 18  contact_first_name  2747 non-null   object        
+ 19  deal_size           2747 non-null   object        
+dtypes: datetime64[ns](1), float64(1), int64(6), object(12)
+memory usage: 429.3+ KB
+[2025-09-20T09:39:31.238+0000] {logging_mixin.py:115} INFO - None
+[2025-09-20T09:39:31.238+0000] {taskinstance.py:1902} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag.py", line 83, in dataCleaning
+    dfCopy = dfCopy.dropna(subset="order_date")
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/frame.py", line 5950, in dropna
+    indices = ax.get_indexer_for(subset)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 5275, in get_indexer_for
+    return self.get_indexer(target, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 3437, in get_indexer
+    target = self._maybe_cast_listlike_indexer(target)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 5708, in _maybe_cast_listlike_indexer
+    return ensure_index(target)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 6336, in ensure_index
+    return Index(index_like, copy=copy)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 474, in __new__
+    raise cls._scalar_data_error(data)
+TypeError: Index(...) must be called with a collection of some kind, 'order_date' was passed
+[2025-09-20T09:39:31.284+0000] {taskinstance.py:1412} INFO - Marking task as FAILED. dag_id=sql_to_elastic, task_id=dataCleaning, execution_date=20250920T093925, start_date=20250920T093930, end_date=20250920T093931
+[2025-09-20T09:39:31.297+0000] {standard_task_runner.py:97} ERROR - Failed to execute job 182 for task dataCleaning (Index(...) must be called with a collection of some kind, 'order_date' was passed; 2783)
+[2025-09-20T09:39:31.332+0000] {local_task_job.py:156} INFO - Task exited with return code 1
+[2025-09-20T09:39:31.378+0000] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

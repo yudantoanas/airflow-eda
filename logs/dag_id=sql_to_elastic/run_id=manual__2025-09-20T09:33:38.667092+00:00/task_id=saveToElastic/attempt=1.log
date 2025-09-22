@@ -1,0 +1,32 @@
+[2025-09-20T09:33:46.890+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: sql_to_elastic.saveToElastic manual__2025-09-20T09:33:38.667092+00:00 [queued]>
+[2025-09-20T09:33:46.898+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: sql_to_elastic.saveToElastic manual__2025-09-20T09:33:38.667092+00:00 [queued]>
+[2025-09-20T09:33:46.898+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-20T09:33:46.898+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 1
+[2025-09-20T09:33:46.898+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-20T09:33:46.909+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): saveToElastic> on 2025-09-20 09:33:38.667092+00:00
+[2025-09-20T09:33:46.917+0000] {standard_task_runner.py:52} INFO - Started process 2559 to run task
+[2025-09-20T09:33:46.924+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'sql_to_elastic', 'saveToElastic', 'manual__2025-09-20T09:33:38.667092+00:00', '--job-id', '174', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmp2dcy6yr8', '--error-file', '/tmp/tmpora_5lxy']
+[2025-09-20T09:33:46.927+0000] {standard_task_runner.py:80} INFO - Job 174: Subtask saveToElastic
+[2025-09-20T09:33:46.985+0000] {task_command.py:371} INFO - Running <TaskInstance: sql_to_elastic.saveToElastic manual__2025-09-20T09:33:38.667092+00:00 [running]> on host 564f5208acb9
+[2025-09-20T09:33:47.040+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=sql_to_elastic
+AIRFLOW_CTX_TASK_ID=saveToElastic
+AIRFLOW_CTX_EXECUTION_DATE=2025-09-20T09:33:38.667092+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-09-20T09:33:38.667092+00:00
+[2025-09-20T09:33:47.049+0000] {taskinstance.py:1902} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag.py", line 96, in saveToElastic
+    kwargs['ti'].xcom_push(key='data', value=data + "3")
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+[2025-09-20T09:33:47.056+0000] {taskinstance.py:1412} INFO - Marking task as FAILED. dag_id=sql_to_elastic, task_id=saveToElastic, execution_date=20250920T093338, start_date=20250920T093346, end_date=20250920T093347
+[2025-09-20T09:33:47.065+0000] {standard_task_runner.py:97} ERROR - Failed to execute job 174 for task saveToElastic (unsupported operand type(s) for +: 'NoneType' and 'str'; 2559)
+[2025-09-20T09:33:47.107+0000] {local_task_job.py:156} INFO - Task exited with return code 1
+[2025-09-20T09:33:47.139+0000] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check
