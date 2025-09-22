@@ -1,4 +1,4 @@
-# Airflow EDA
+# Auto Sales Exploratory Data Analysis
 
 > This is a sandbox project to improve my skills in Data Science.
 
