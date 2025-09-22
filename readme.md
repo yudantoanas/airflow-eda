@@ -1,4 +1,4 @@
-# Auto Sales Exploratory Data Analysis
+# Auto Sales EDA Pipeline
 
 > This is a sandbox project to improve my skills in Data Science.
 
