@@ -25,7 +25,7 @@ An automotive company (or automotive retail distributor) wants to understand the
 - Pandas
 - Airflow
 - PostgreSQL
-- ElasticSearch
+- ELK stack
 - Docker
 
 ## Usage
