@@ -1,6 +1,6 @@
 # Auto Sales EDA Pipeline
 
-> This is a sandbox project to improve my skills in Data Science.
+> This is a sandbox project where I build an EDA pipeline to create a dashboard about Auto Sales transactions using Airflow, Python and ELK.
 
 ## Project Dataset
 
