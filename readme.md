@@ -1,6 +1,6 @@
 # Airflow EDA
 
-This is a sandbox project to prove my skills in Data Science.
+> This is a sandbox project to improve my skills in Data Science.
 
 ## Project Dataset
 
