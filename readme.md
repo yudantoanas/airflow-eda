@@ -12,9 +12,9 @@ An automotive company (or automotive retail distributor) wants to understand the
 
 ## EDA Objectives
 
-1. Understand the characteristics of the sales data (total number of orders, sales range, and top-selling product lines).
+1. Understand the characteristics of the sales data.
 2. Analyze customer behavior based on country, city, and deal size.
-3. Identify sales trends over time (ORDERDATE) and DAYS_SINCE_LASTORDER.
+3. Identify sales trends over time.
 4. Detect product line patterns (Classic Cars, Motorcycles, etc.) to see which ones perform best.
 5. Evaluate order status (Shipped, Cancelled, Disputed) to assess service quality.
 6. Generate insights useful for marketing and inventory strategies.
